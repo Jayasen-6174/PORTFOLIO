@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jaya Sen - Python Full Stack Developer Portfolio. B.Tech Computer Science student specializing in Python, Django, DRF, JavaScript, and Full Stack Web Development.">
+  <meta name="keywords" content="Jaya Sen, Python Developer, Django, Full Stack Developer, Software Developer, Code Alpha, Web Developer, Portfolio">
+  <meta name="author" content="Jaya Sen">
+  <title>Jaya Sen | Python Full Stack Developer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 CDN for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- External Stylesheet (Checks both css/style.css and ./style.css) -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Ambient Glow Accents -->
+  <div class="ambient-glow-1"></div>
+  <div class="ambient-glow-2"></div>
+  <div class="ambient-glow-3"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo">
+        <div class="logo-badge">JS</div>
+        <span>Jaya<span class="gradient-text">Sen</span></span>
+      </a>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Toggle Theme" title="Toggle Light/Dark Theme">
+          <i class="fa-solid fa-sun"></i>
+        </button>
+        <a href="Jaya_Sen_Resume%20(2).pdf" download="Jaya_Sen_Resume.pdf" class="btn btn-primary btn-sm">
+          <i class="fa-solid fa-download"></i> <span>Resume</span>
+        </a>
+        <button class="menu-toggle-btn" id="menu-toggle-btn" aria-label="Open Mobile Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Hero Text -->
+          <div class="hero-text-col">
+            <div class="hero-status-pill">
+              <span class="status-dot"></span>
+              <span>Available for Software & Web Developer Roles</span>
+            </div>
+
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-title">Jaya <span class="gradient-text">Sen</span></h1>
+
+            <div class="hero-role-wrapper">
+              <span id="typewriter-text"></span><span class="typing-cursor"></span>
+            </div>
+
+            <p class="hero-description">
+              B.Tech Computer Science student passionate about building dynamic, scalable, and responsive web applications with <strong>Python, Django, JavaScript, and REST APIs</strong>. Seeking an entry-level Software Developer or Python Full Stack role to create impactful digital experiences.
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="#projects" class="btn btn-primary">
+                <i class="fa-solid fa-code"></i> View Projects
+              </a>
+              <a href="Jaya_Sen_Resume%20(2).pdf" download="Jaya_Sen_Resume.pdf" class="btn btn-secondary">
+                <i class="fa-solid fa-file-arrow-down"></i> Download Resume
+              </a>
+              <a href="#contact" class="btn btn-outline">
+                <i class="fa-regular fa-envelope"></i> Let's Talk
+              </a>
+            </div>
+
+            <div class="hero-social-strip">
+              <span class="social-label">Connect:</span>
+              <div class="social-links-row">
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-pill" title="LinkedIn Profile">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-pill" title="GitHub Profile">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <!-- <a href="mailto:jayasen6174@gmail.com" class="social-pill" title="Email Jaya Sen">
+                  <i class="fa-solid fa-envelope"></i>
+                </a> -->
+                <a href="tel:+918770996174" class="social-pill" title="Call Jaya Sen">
+                  <i class="fa-solid fa-phone"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Image & Tech Float Badges -->
+          <div class="hero-visual">
+            <div class="avatar-wrapper">
+              <div class="avatar-backdrop"></div>
+              <div class="avatar-card">
+                <img src="resume pic.jpeg" alt="Jaya Sen - Python Full Stack Developer">
+              </div>
+
+              <!-- Floating Tech Badges -->
+              <div class="floating-chip chip-1">
+                <i class="fa-brands fa-python"></i>
+                <span>Python & Django</span>
+              </div>
+              <div class="floating-chip chip-2">
+                <i class="fa-brands fa-js"></i>
+                <span>JavaScript ES6+</span>
+              </div>
+              <div class="floating-chip chip-3">
+                <i class="fa-solid fa-robot"></i>
+                <span>Generative AI</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Stats Counter Row -->
+        <div class="stats-strip" id="stats-strip">
+          <div class="stat-box">
+            <div class="stat-number" data-target="3" data-suffix="+">0</div>
+            <div class="stat-label">Full Stack & Web Projects</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-number" data-target="6" data-suffix="+2">0</div>
+            <div class="stat-label">Months Hands-On Training</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-number" data-target="2027" data-suffix="">0</div>
+            <div class="stat-label">B.Tech Graduation Year</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-number" data-target="100" data-suffix="%">0</div>
+            <div class="stat-label">Dedication to Quality Code</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-regular fa-user"></i> About Me</span>
+          <h2 class="section-title">Driven by Curiosity & <span class="gradient-text">Clean Code</span></h2>
+          <p class="section-subtitle">A glimpse into my background, technical mindset, and passion for software engineering.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text-col">
+            <p>
+              I am a <strong>B.Tech Computer Science and Engineering</strong> student at <strong>Gyan Sagar College of Engineering, Sagar (2023 - 2027)</strong>, based in Sagar, Madhya Pradesh.
+            </p>
+            <p>
+              My focus is on creating scalable, responsive, and user-centric web applications. With practical training in <strong>Full Stack Development with Generative AI</strong> (6+2 Months) and experience as a <strong>Frontend Development Intern at Code Alpha</strong>, I combine modern backend logic with sleek frontend interfaces.
+            </p>
+            <p>
+              Whether it's architecting a Django database with ORM, developing REST APIs, or crafting interactive DOM-driven web interfaces, I enjoy turning complex ideas into elegant digital solutions.
+            </p>
+
+            <div class="about-meta-grid">
+              <div class="meta-item">
+                <div class="meta-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="meta-content">
+                  <div class="meta-label">Location</div>
+                  <div class="meta-value">Sagar, MP, India</div>
+                </div>
+              </div>
+              <div class="meta-item">
+                <div class="meta-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                <div class="meta-content">
+                  <div class="meta-label">Degree</div>
+                  <div class="meta-value">B.Tech CSE (2023–2027)</div>
+                </div>
+              </div>
+              <div class="meta-item">
+                <div class="meta-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="meta-content">
+                  <div class="meta-label">Email</div>
+                  <div class="meta-value">jayasen6174@gmail.com</div>
+                </div>
+              </div>
+              <div class="meta-item">
+                <div class="meta-icon"><i class="fa-solid fa-language"></i></div>
+                <div class="meta-content">
+                  <div class="meta-label">Languages</div>
+                  <div class="meta-value">English & Hindi</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="strengths-container">
+              <h4 class="strengths-title">Core Strengths & Behavioral Skills</h4>
+              <div class="strengths-badges">
+                <span class="strength-pill"><i class="fa-solid fa-users"></i> Team Work</span>
+                <span class="strength-pill"><i class="fa-solid fa-clock"></i> Time Management</span>
+                <span class="strength-pill"><i class="fa-solid fa-comments"></i> Effective Communication</span>
+                <span class="strength-pill"><i class="fa-solid fa-bolt"></i> Adaptive & Quick Learner</span>
+                <span class="strength-pill"><i class="fa-solid fa-lightbulb"></i> Problem Solving</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-cards-col">
+            <div class="highlight-card">
+              <div class="highlight-icon-box">
+                <i class="fa-brands fa-python"></i>
+              </div>
+              <div class="highlight-details">
+                <h4>Backend & Full-Stack Mastery</h4>
+                <p>Hands-on development with Python, Django framework, Django ORM, and REST APIs for robust server-side architecture.</p>
+              </div>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-icon-box">
+                <i class="fa-brands fa-js"></i>
+              </div>
+              <div class="highlight-details">
+                <h4>Modern Frontend & Interactivity</h4>
+                <p>Proficient in HTML5, CSS3, JavaScript ES6+, responsive design, and DOM manipulation delivering intuitive user experiences.</p>
+              </div>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-icon-box">
+                <i class="fa-solid fa-brain"></i>
+              </div>
+              <div class="highlight-details">
+                <h4>Generative AI & Modern Workflow</h4>
+                <p>Completed 8 months intensive training combining modern Full Stack engineering with Generative AI tools and best practices.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-layer-group"></i> My Tech Stack</span>
+          <h2 class="section-title">Technical <span class="gradient-text">Expertise</span></h2>
+          <p class="section-subtitle">Technologies and tools I work with to bring web applications and software to life.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Backend & Python -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-brands fa-python"></i></div>
+              <h3>Backend & APIs</h3>
+            </div>
+            <div class="skill-chips-list">
+              <span class="skill-chip"><i class="fa-brands fa-python"></i> Python</span>
+              <span class="skill-chip"><i class="fa-solid fa-cubes"></i> Django Framework</span>
+              <span class="skill-chip"><i class="fa-solid fa-network-wired"></i> Django REST Framework (DRF)</span>
+              <span class="skill-chip"><i class="fa-solid fa-cloud-arrow-down"></i> RESTful APIs</span>
+              <span class="skill-chip"><i class="fa-solid fa-database"></i> Django ORM</span>
+              <span class="skill-chip"><i class="fa-solid fa-code"></i> Python OOP</span>
+            </div>
+          </div>
+
+          <!-- Frontend Development -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-brands fa-html5"></i></div>
+              <h3>Frontend Development</h3>
+            </div>
+            <div class="skill-chips-list">
+              <span class="skill-chip"><i class="fa-brands fa-html5"></i> HTML5</span>
+              <span class="skill-chip"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+              <span class="skill-chip"><i class="fa-brands fa-js"></i> JavaScript (ES6+)</span>
+              <span class="skill-chip"><i class="fa-solid fa-mobile-screen"></i> Responsive Web Design</span>
+              <span class="skill-chip"><i class="fa-solid fa-bolt"></i> DOM Manipulation</span>
+              <span class="skill-chip"><i class="fa-solid fa-wand-magic-sparkles"></i> Modern UI/UX</span>
+            </div>
+          </div>
+
+          <!-- Databases & AI -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-database"></i></div>
+              <h3>Databases & AI</h3>
+            </div>
+            <div class="skill-chips-list">
+              <span class="skill-chip"><i class="fa-solid fa-server"></i> MySQL</span>
+              <span class="skill-chip"><i class="fa-solid fa-database"></i> SQLite</span>
+              <span class="skill-chip"><i class="fa-solid fa-table"></i> SQL Queries</span>
+              <span class="skill-chip"><i class="fa-solid fa-robot"></i> Generative AI Integration</span>
+              <span class="skill-chip"><i class="fa-solid fa-envelope"></i> SMTP Email Services</span>
+            </div>
+          </div>
+
+          <!-- Developer Tools -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+              <h3>Tools & Platforms</h3>
+            </div>
+            <div class="skill-chips-list">
+              <span class="skill-chip"><i class="fa-brands fa-git-alt"></i> Git</span>
+              <span class="skill-chip"><i class="fa-brands fa-github"></i> GitHub</span>
+              <span class="skill-chip"><i class="fa-solid fa-code"></i> VS Code</span>
+              <span class="skill-chip"><i class="fa-solid fa-paper-plane"></i> Postman</span>
+              <span class="skill-chip"><i class="fa-solid fa-palette"></i> Canva</span>
+              <span class="skill-chip"><i class="fa-solid fa-file-lines"></i> MS Office</span>
+            </div>
+          </div>
+
+          <!-- Core CS & Architecture -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-laptop-code"></i></div>
+              <h3>Core Foundations</h3>
+            </div>
+            <div class="skill-chips-list">
+              <span class="skill-chip"><i class="fa-solid fa-sitemap"></i> Data Structures</span>
+              <span class="skill-chip"><i class="fa-solid fa-gears"></i> Algorithms</span>
+              <span class="skill-chip"><i class="fa-solid fa-diagram-project"></i> MVC / MVT Pattern</span>
+              <span class="skill-chip"><i class="fa-solid fa-arrows-rotate"></i> CRUD Architecture</span>
+              <span class="skill-chip"><i class="fa-solid fa-shield-halved"></i> Web Security Basics</span>
+            </div>
+          </div>
+
+          <!-- Behavioral Skills -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-award"></i></div>
+              <h3>Professional Skills</h3>
+            </div>
+            <div class="skill-chips-list">
+              <span class="skill-chip"><i class="fa-solid fa-users"></i> Team Collaboration</span>
+              <span class="skill-chip"><i class="fa-solid fa-stopwatch"></i> Time Management</span>
+              <span class="skill-chip"><i class="fa-solid fa-comment-dots"></i> Clear Communication</span>
+              <span class="skill-chip"><i class="fa-solid fa-brain"></i> Adaptive Learning</span>
+              <span class="skill-chip"><i class="fa-solid fa-check-double"></i> Problem Analysis</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-briefcase"></i> Portfolio Work</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <p class="section-subtitle">Real-world applications built with clean architecture, responsive design, and solid problem solving.</p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="fullstack">Full Stack & Django</button>
+          <button class="filter-btn" data-filter="frontend">Frontend & Web Apps</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Charity & NGO Management System -->
+          <div class="project-card" data-category="fullstack">
+            <div class="project-banner">
+              <div class="banner-pattern"></div>
+              <span class="project-badge-tag">Django Full Stack</span>
+              <i class="fa-solid fa-hand-holding-heart project-icon-large"></i>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Charity & NGO Management System</h3>
+              <p class="project-desc">
+                A robust dynamic full-stack platform built to streamline NGO activities, volunteer engagement, and online donation operations.
+              </p>
+              <ul class="project-bullets">
+                <li>Developed modular architecture for campaigns, events, NGOs, volunteers, and donations.</li>
+                <li>Implemented full CRUD operations and secure database integration using Django ORM.</li>
+                <li>Integrated SMTP-based email services for automated volunteer registrations and contact notifications.</li>
+              </ul>
+              <div class="project-tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Django</span>
+                <span class="tech-tag">Django ORM</span>
+                <span class="tech-tag">MySQL/SQLite</span>
+                <span class="tech-tag">SMTP</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="project-footer">
+                <!-- <a href="#contact" class="btn btn-primary btn-sm">
+                  <i class="fa-solid fa-circle-info"></i> Project Details
+                </a> -->
+                <!-- <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" title="View Source on GitHub">
+                  <i class="fa-brands fa-github"></i> Code
+                </a> -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: Hotel Management Website -->
+          <div class="project-card" data-category="frontend">
+            <div class="project-banner">
+              <div class="banner-pattern"></div>
+              <span class="project-badge-tag">Responsive Web</span>
+              <i class="fa-solid fa-hotel project-icon-large"></i>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Hotel Management Website</h3>
+              <p class="project-desc">
+                A high-converting, fully responsive web application designed for hotel booking, room exploration, and hospitality service presentation.
+              </p>
+              <ul class="project-bullets">
+                <li>Designed an interactive and mobile-friendly booking interface with eye-catching landing pages.</li>
+                <li>Implemented clean modern UI components, room galleries, amenities showcases, and pricing tables.</li>
+                <li>Optimized cross-browser compatibility and user experience with smooth navigation.</li>
+              </ul>
+              <div class="project-tech-stack">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Responsive Design</span>
+                <span class="tech-tag">UI/UX</span>
+              </div>
+              <div class="project-footer">
+                <!-- <a href="#contact" class="btn btn-primary btn-sm">
+                  <i class="fa-solid fa-circle-info"></i> Inquire Details
+                </a> -->
+                <!-- <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" title="View Source on GitHub">
+                  <i class="fa-brands fa-github"></i> Code
+                </a> -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: Guessing Number Game -->
+          <div class="project-card" data-category="frontend">
+            <div class="project-banner">
+              <div class="banner-pattern"></div>
+              <span class="project-badge-tag">Interactive JS App</span>
+              <i class="fa-solid fa-gamepad project-icon-large"></i>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Guessing Number Game</h3>
+              <p class="project-desc">
+                An engaging web game that tests logical deduction with randomized number generation, real-time score keeping, and dynamic DOM feedback.
+              </p>
+              <ul class="project-bullets">
+                <li>Built random number engine with immediate visual feedback (too high, too low, correct).</li>
+                <li>Engineered attempt counting, score persistence, and instant game reset capability.</li>
+                <li>Applied clean DOM event handling, input validation, and keyboard accessibility.</li>
+              </ul>
+              <div class="project-tech-stack">
+                <span class="tech-tag">JavaScript ES6</span>
+                <span class="tech-tag">DOM Manipulation</span>
+                <span class="tech-tag">CSS Animations</span>
+                <span class="tech-tag">Event Handling</span>
+              </div>
+              <div class="project-footer">
+                <!-- <button class="btn btn-primary btn-sm" id="open-game-demo-btn">
+                  <i class="fa-solid fa-play"></i> Play Demo Live
+                </button> -->
+                <!-- <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" title="View Source on GitHub">
+                  <i class="fa-brands fa-github"></i> Code
+                </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience & Education Timeline -->
+    <section class="experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-timeline"></i> Journey</span>
+          <h2 class="section-title">Experience & <span class="gradient-text">Education</span></h2>
+          <p class="section-subtitle">Academic background, professional internship, and rigorous hands-on technical training.</p>
+        </div>
+
+        <div class="timeline-wrapper">
+          <div class="timeline-line"></div>
+
+          <!-- Item 1: Full Stack with Gen AI Training -->
+          <div class="timeline-item">
+            <div class="timeline-node"><i class="fa-solid fa-robot"></i></div>
+            <div class="timeline-content-card">
+              <div class="timeline-header">
+                <h3 class="timeline-role">Full Stack Development with Generative AI</h3>
+                <span class="timeline-date-badge">Duration: 6+2 Months (2026)</span>
+              </div>
+              <div class="timeline-company">
+                <i class="fa-solid fa-certificate"></i> Comprehensive Hands-On Training
+              </div>
+              <p class="timeline-desc">
+                Specialized training in end-to-end full-stack software development. Mastered Python backend engineering with Django, REST API architecture, database management, and leveraging Generative AI tools to accelerate software development and problem solving.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 2: Code Alpha Internship -->
+          <div class="timeline-item">
+            <div class="timeline-node"><i class="fa-solid fa-briefcase"></i></div>
+            <div class="timeline-content-card">
+              <div class="timeline-header">
+                <h3 class="timeline-role">Frontend Development Intern</h3>
+                <span class="timeline-date-badge">July 2026</span>
+              </div>
+              <div class="timeline-company">
+                <i class="fa-solid fa-building"></i> Code Alpha
+              </div>
+              <p class="timeline-desc">
+                Worked as a Frontend Intern developing interactive web components, improving responsive designs, collaborating on assigned web tasks, implementing DOM manipulation, and ensuring seamless cross-browser user experiences.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 3: B.Tech Degree -->
+          <div class="timeline-item">
+            <div class="timeline-node"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="timeline-content-card">
+              <div class="timeline-header">
+                <h3 class="timeline-role">B.Tech in Computer Science and Engineering</h3>
+                <span class="timeline-date-badge">2023 - 2027</span>
+              </div>
+              <div class="timeline-company">
+                <i class="fa-solid fa-school"></i> Gyan Sagar College of Engineering, Sagar (MP)
+              </div>
+              <p class="timeline-desc">
+                Pursuing undergraduate studies in Computer Science. Core coursework includes Object-Oriented Programming (Python), Data Structures & Algorithms, Database Management Systems (DBMS), Operating Systems, Computer Networks, and Software Engineering.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-regular fa-paper-plane"></i> Get in Touch</span>
+          <h2 class="section-title">Let's Connect & <span class="gradient-text">Collaborate</span></h2>
+          <p class="section-subtitle">Interested in hiring me or discussing an opportunity? Drop me a message or reach out directly.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info Column -->
+          <div class="contact-info-cards">
+            <div class="contact-card">
+              <div class="contact-card-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="contact-card-details">
+                <span class="card-label">Email Address</span>
+                <a href="mailto:jayasen6174@gmail.com" class="card-value">jayasen6174@gmail.com</a>
+              </div>
+              <button class="btn btn-secondary btn-icon-only copy-trigger" data-copy-text="jayasen6174@gmail.com" title="Copy Email">
+                <i class="fa-regular fa-copy"></i>
+              </button>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="contact-card-details">
+                <span class="card-label">Phone / WhatsApp</span>
+                <a href="tel:+918770996174" class="card-value">+91 8770996174</a>
+              </div>
+              <button class="btn btn-secondary btn-icon-only copy-trigger" data-copy-text="+918770996174" title="Copy Phone Number">
+                <i class="fa-regular fa-copy"></i>
+              </button>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="contact-card-details">
+                <span class="card-label">Location</span>
+                <span class="card-value">Sagar, Madhya Pradesh, India</span>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+              <div class="contact-card-details">
+                <span class="card-label">LinkedIn</span>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="card-value">linkedin.com/in/jaya-sen</a>
+              </div>
+            </div>
+
+            <!-- Resume Download Box -->
+            <div class="resume-download-banner">
+              <h4>Ready to review my full credentials?</h4>
+              <p>Download my updated resume PDF directly to review my qualifications, training, and projects.</p>
+              <a href="Jaya_Sen_Resume%20(2).pdf" download="Jaya_Sen_Resume.pdf" class="btn btn-primary">
+                <i class="fa-solid fa-file-arrow-down"></i> Download Resume PDF
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact Form Column -->
+          <div class="contact-form-container">
+            <h3 style="margin-bottom: 1.25rem;">Send a Message</h3>
+            <form class="contact-form" id="contact-form">
+              <div class="form-group">
+                <label for="contact-name" class="form-label">Your Name</label>
+                <input type="text" id="contact-name" class="form-control" placeholder="e.g. John Doe" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email" class="form-label">Your Email</label>
+                <input type="email" id="contact-email" class="form-control" placeholder="e.g. john@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject" class="form-label">Subject</label>
+                <input type="text" id="contact-subject" class="form-control" placeholder="Job Opportunity / Project Inquiry" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Message</label>
+                <textarea id="contact-message" class="form-control" placeholder="Write your message here..." required></textarea>
+              </div>
+
+              <div id="form-status" class="form-status"></div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <i class="fa-regular fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Interactive Playable Game Modal (Guessing Number Game Project Showcase) -->
+  <div class="modal-overlay" id="game-modal-overlay">
+    <div class="game-modal">
+      <button class="modal-close-btn" id="close-game-modal" aria-label="Close Modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="game-modal-header">
+        <span class="section-tag"><i class="fa-solid fa-gamepad"></i> Interactive Project Demo</span>
+        <h3>Guessing Number Game</h3>
+        <p class="section-subtitle" style="font-size: 0.9rem;">Test the live logic behind Jaya's interactive JavaScript project!</p>
+      </div>
+
+      <div class="game-box">
+        <p class="game-instruction">I'm thinking of a number between <strong>1 and 100</strong>. Can you guess it?</p>
+
+        <div class="game-input-group">
+          <input type="number" id="player-guess-input" class="form-control game-input" min="1" max="100" placeholder="50">
+          <button class="btn btn-primary" id="submit-guess-btn">Guess</button>
+        </div>
+
+        <div class="game-feedback" id="game-feedback-msg">Enter a number and click Guess!</div>
+
+        <div class="game-stats-row">
+          <div>Attempts: <strong id="game-attempts-count">0</strong></div>
+          <div>Best Score: <strong id="game-best-score">-</strong> tries</div>
+        </div>
+
+        <div style="margin-top: 1.25rem;">
+          <button class="btn btn-secondary btn-sm" id="reset-game-btn">
+            <i class="fa-solid fa-rotate-right"></i> Reset Game
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-top-btn" id="scroll-top-btn" aria-label="Scroll to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="brand-logo" style="font-size: 1.2rem;">
+        <div class="logo-badge" style="width: 30px; height: 30px; font-size: 0.9rem;">JS</div>
+        <span>Jaya Sen</span>
+      </div>
+
+      <p class="footer-text">
+        &copy; 2026 <strong>Jaya Sen</strong>. All rights reserved. Built with Python & Frontend Craftsmanship.
+      </p>
+
+      <div class="social-links-row">
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-pill" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-pill" title="GitHub"><i class="fa-brands fa-github"></i></a>
+        <!-- <a href="mailto:jayasen6174@gmail.com" class="social-pill" title="Email"><i class="fa-solid fa-envelope"></i></a> -->
+      </div>
+    </div>
+  </footer>
+
+  <!-- External JavaScript (Checks both js/script.js and ./script.js) -->
+  <script src="js/script.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
